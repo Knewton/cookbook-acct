@@ -1,0 +1,1 @@
+cookbook 'cookbook-acct', :path => '/home/jdewey/git/cookbook-acct'
