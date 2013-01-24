@@ -30,13 +30,11 @@ Installs/Configures acct
 Testing
 =====
 
-This cookbook is using [ChefSpec](https://github.com/acrmp/chefspec) for testing.
+This cookbook is using [ChefSpec](https://github.com/acrmp/chefspec) for
+testing.  Should run the following before commiting.  It will run your tests,
+and check for lint errors.
 
-    $ cd $repo
-    $ bundle
-    $ librarian-chef install
-    $ ln -s ../ cookbooks/acct
-    $ rspec cookbooks/acct
+    % ./run_tests.bash
 
 License and Author
 ==================
